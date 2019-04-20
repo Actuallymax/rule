@@ -1,5 +1,4 @@
 # CUSTOM RULE
-DOMAIN,iosapps.itunes.apple.com,DIRECT
 DOMAIN,license.sublimehq.com,REJECT
 DOMAIN,www.sublimetext.com,REJECT
 DOMAIN,pgdt.gtimg.cn,DIRECT
