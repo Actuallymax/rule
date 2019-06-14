@@ -10,3 +10,4 @@ URL-REGEX,d.image.i4.cn/adInfo/,REJECT
 URL-REGEX,^https?:\/\/www\.bldimg\.com\/(background|splash)\/.+\.png$,REJECT
 URL-REGEX,^https?:\/\/www\.bldimg\.com\/\/(background|splash)\/.+\.png$,REJECT
 DOMAIN,uop.umeng.com,REJECT
+DOMAIN,iosapps.itunes.apple.com,DIRECT
