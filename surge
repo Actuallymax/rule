@@ -11,3 +11,4 @@ URL-REGEX,^https?:\/\/www\.bldimg\.com\/(background|splash)\/.+\.png$,REJECT
 URL-REGEX,^https?:\/\/www\.bldimg\.com\/\/(background|splash)\/.+\.png$,REJECT
 DOMAIN,iosapps.itunes.apple.com,DIRECT
 DOMAIN,zh.ifixit.com,Proxy
+DOMAIN-SUFFIX,umeng.com,REJECT
