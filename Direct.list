@@ -1,4 +1,5 @@
-DOMAIN,pgdt.gtimg.cn,DIRECT
-DOMAIN,file.zmzfile.com,DIRECT
-DOMAIN,iosapps.itunes.apple.com,DIRECT
-DOMAIN,sdk.e.qq.com,DIRECT 
+DOMAIN,pgdt.gtimg.cn
+DOMAIN,file.zmzfile.com
+DOMAIN,iosapps.itunes.apple.com
+DOMAIN,sdk.e.qq.com
+DOMAIN-SUFFIX, gdt.qq.com
