@@ -13,3 +13,4 @@ DOMAIN,iosapps.itunes.apple.com,DIRECT
 DOMAIN,zh.ifixit.com,Proxy
 DOMAIN-SUFFIX,umeng.com,REJECT
 DOMAIN,sdk.e.qq.com,DIRECT 
+DOMAIN-SUFFIX, gdt.qq.com, DIRECT
