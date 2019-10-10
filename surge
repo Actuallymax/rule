@@ -3,13 +3,10 @@ DOMAIN,license.sublimehq.com,REJECT
 DOMAIN,www.sublimetext.com,REJECT
 DOMAIN,pgdt.gtimg.cn,DIRECT
 DOMAIN,file.zmzfile.com,DIRECT
-DOMAIN,nssurge.com,Proxy
 URL-REGEX,^http:\/\/renren2\.maoyun\.tv\/ys\/.+\.JPG$,REJECT
 URL-REGEX,^http:\/\/v2\.yimohui2017\.com\/mahua\/img\/.+\/.+\/.+\.png$,REJECT
-URL-REGEX,d.image.i4.cn/adInfo/,REJECT
 URL-REGEX,^https?:\/\/www\.bldimg\.com\/(background|splash)\/.+\.png$,REJECT
 URL-REGEX,^https?:\/\/www\.bldimg\.com\/\/(background|splash)\/.+\.png$,REJECT
-DOMAIN,iosapps.itunes.apple.com,DIRECT
 DOMAIN,zh.ifixit.com,Proxy
 DOMAIN-SUFFIX,umeng.com,REJECT
 DOMAIN,sdk.e.qq.com,DIRECT 
