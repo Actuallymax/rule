@@ -7,6 +7,8 @@ URL-REGEX,^http:\/\/renren2\.maoyun\.tv\/ys\/.+\.JPG$,REJECT
 URL-REGEX,^http:\/\/v2\.yimohui2017\.com\/mahua\/img\/.+\/.+\/.+\.png$,REJECT
 URL-REGEX,^https?:\/\/www\.bldimg\.com\/(background|splash)\/.+\.png$,REJECT
 URL-REGEX,^https?:\/\/www\.bldimg\.com\/\/(background|splash)\/.+\.png$,REJECT
+URL-REGEX,^https:\/\/www\.bldimg\.com\/avatars\/.+\.png$,REJECT
+URL-REGEX,^https:\/\/www\.bldimg\.com\/banners\/.+\.png$,REJECT
 DOMAIN,zh.ifixit.com,Proxy
 DOMAIN,sdk.e.qq.com,DIRECT 
 DOMAIN-SUFFIX, gdt.qq.com, DIRECT

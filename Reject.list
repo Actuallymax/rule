@@ -5,4 +5,5 @@ URL-REGEX,^http:\/\/v2\.yimohui2017\.com\/mahua\/img\/.+\/.+\/.+\.png$
 URL-REGEX,d.image.i4.cn/adInfo/
 URL-REGEX,^https?:\/\/www\.bldimg\.com\/(background|splash)\/.+\.png$
 URL-REGEX,^https?:\/\/www\.bldimg\.com\/\/(background|splash)\/.+\.png$
-DOMAIN-SUFFIX,umeng.com
+URL-REGEX,^https:\/\/www\.bldimg\.com\/avatars\/.+\.png$
+URL-REGEX,^https:\/\/www\.bldimg\.com\/banners\/.+\.png$
