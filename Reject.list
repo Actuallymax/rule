@@ -7,3 +7,4 @@ URL-REGEX,^https?:\/\/www\.bldimg\.com\/(background|splash)\/.+\.png$
 URL-REGEX,^https?:\/\/www\.bldimg\.com\/\/(background|splash)\/.+\.png$
 URL-REGEX,^https:\/\/www\.bldimg\.com\/avatars\/.+\.png$
 URL-REGEX,^https:\/\/www\.bldimg\.com\/banners\/.+\.png$
+URL-REGEX,^https:\/\/www\.bldimg\.com\/cover\/.+\.png$
