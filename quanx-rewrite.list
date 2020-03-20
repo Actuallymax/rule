@@ -1,4 +1,4 @@
-hostname = *.blued.cn, *.bldimg.com
+hostname = *.blued.cn, *.bldimg.com, api*.tiktokv.com, api*.musical.ly, api*.amemv.com, aweme*.snssdk.com
 
 # Blued AD
 ^https?:\/\/www\.bldimg\.com\/(background|splash)\/ url reject
