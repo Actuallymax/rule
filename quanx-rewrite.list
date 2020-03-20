@@ -1,0 +1,18 @@
+hostname = *.blued.cn, *.bldimg.com
+
+# Blued AD
+^https?:\/\/www\.bldimg\.com\/(background|splash)\/ url reject
+^https?:\/\/www\.bldimg\.com\/\/(background|splash)\/ url reject
+^https:\/\/www\.bldimg\.com\/avatars\/ url reject
+^https:\/\/www\.bldimg\.com\/banners\/ url reject
+
+# TT1069 AD
+^http:\/\/www\.tt1069\.com\/banners\/ url reject
+
+# TikTok
+(?<=(carrier|sys)_region=)CN url 307 US
+(?<=version_code=)\d{1,}.\d{1}\.\d{1} url 307 14.0.0
+
+
+
+

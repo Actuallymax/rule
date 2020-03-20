@@ -1,0 +1,9 @@
+# TT1069 AD
+HOST-KEYWORD,awecrptjmp,reject
+HOST-KEYWORD,adstatic,reject
+HOST-KEYWORD,aspahk,reject
+HOST-KEYWORD,awemwh,reject
+HOST-KEYWORD,awestat,reject
+
+#人人影视 AD
+HOST-KEYWORD,cvnad,reject
