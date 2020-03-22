@@ -1,5 +1,15 @@
 DOMAIN,license.sublimehq.com
 DOMAIN,www.sublimetext.com
+# TT1069 AD
+DOMAIN-KEYWORD,awecrptjmp
+DOMAIN-KEYWORD,adstatic
+DOMAIN-KEYWORD,aspahk
+DOMAIN-KEYWORD,awemwh
+DOMAIN-KEYWORD,awestat
+
+#人人影视 AD
+DOMAIN-KEYWORD,cvnad
+
 URL-REGEX,^http:\/\/renren2\.maoyun\.tv\/ys\/.+\.JPG$
 URL-REGEX,^http:\/\/v2\.yimohui2017\.com\/mahua\/img\/.+\/.+\/.+\.png$
 URL-REGEX,d.image.i4.cn/adInfo/
@@ -8,3 +18,4 @@ URL-REGEX,^https?:\/\/www\.bldimg\.com\/\/(background|splash)\/.+\.png$
 URL-REGEX,^https:\/\/www\.bldimg\.com\/avatars\/.+\.png$
 URL-REGEX,^https:\/\/www\.bldimg\.com\/banners\/.+\.png$
 URL-REGEX,^https:\/\/www\.bldimg\.com\/cover\/.+\.png$
+URL-REGEX,^http:\/\/www\.tt1069\.com\/banners\/.+\.gif$
