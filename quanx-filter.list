@@ -7,3 +7,7 @@ HOST-KEYWORD,awestat,reject
 
 #人人影视 AD
 HOST-KEYWORD,cvnad,reject
+
+#Aloha
+HOST-SUFFIX,img1.360buyimg.com,reject
+HOST-SUFFIX,img1.pstatp.com,reject
