@@ -11,3 +11,8 @@ HOST-KEYWORD,cvnad,reject
 #Aloha
 HOST-SUFFIX,img1.360buyimg.com,reject
 HOST-SUFFIX,img1.pstatp.com,reject
+
+
+#芒果tv
+HOST-KEYWORD,mgtv,direct
+
