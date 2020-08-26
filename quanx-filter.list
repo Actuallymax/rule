@@ -8,11 +8,8 @@ HOST-KEYWORD,awestat,reject
 #人人影视 AD
 HOST-KEYWORD,cvnad,reject
 
-#Aloha
-HOST-SUFFIX,img1.360buyimg.com,reject
-HOST-SUFFIX,*.pstatp.com,reject
-
-
 #芒果tv
 HOST-KEYWORD,mgtv,direct
 
+#aloha
+HOST-KEYWORD,pglstatp-toutiao,reject
