@@ -13,3 +13,4 @@ HOST-KEYWORD,mgtv,direct
 
 #aloha
 HOST-KEYWORD,pglstatp-toutiao,reject
+HOST,img1.360buyimg.com,reject
