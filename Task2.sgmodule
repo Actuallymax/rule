@@ -6,9 +6,6 @@
 # By zZPigle   GitHub：https://github.com/zZPiglet/Task/tree/master
 
 cron "0 9 8 * * *" script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/elem/elemCheckIn.js, tag=饿了么-打卡领红包
-cron "1 0 * * *" script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/Naixue/Naixue.js, tag=奈雪
-cron "0 18 * * *" script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/MovieCalendar/MovieCalendar.js, tag=豆瓣电影日历
-cron "7 0 * * *" script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/umetrip/umetrip.js, tag=航旅纵横
 cron "0 1,20 * * *" script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/DiDi/DiDi_new.js, tag=滴滴出行
 
 # By NobyDa    GitHub：https://github.com/NobyDa/Script/tree/master
@@ -20,14 +17,12 @@ cron "30 0 8 * * *" script-path=https://raw.githubusercontent.com/NobyDa/Script/
 
 cron "10 2 8 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/neteasemusic/neteasemusic.js,tag=网易云音乐
 cron "40 2 8 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/qunar/qunar.js,tag=去哪儿
-cron "0 3 8 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/sfexpress/sfexpress.js,tag= 顺丰速运
+
 cron "10 3 8 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/smzdm/smzdm.js,tag=什么值得买
 cron "20 3 8 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/v2ex/v2ex.js,tag=V2EX
-cron "30 3 8 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/videoqq/videoqq.js,tag=腾讯视频
 
 cron "50 3 8 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/yanxuan/yanxuan.js,tag=网易严选
 
-cron "10 4 8 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/qqmusic/qqmusic.js,tag=QQ音乐
 cron "20 4 8 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/csdn/csdn.js,tag=CSDN
 
 cron "40 4 8 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/mgtv/mgtv.js,tag=芒果TV
@@ -40,58 +35,29 @@ cron "10 6 8 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scr
 cron "10 7 8 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/haidilao/hdl.js,tag=海底捞
 cron "20 7 8 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/wykl/wykl.js,tag=网易考拉
 cron "30 7 8 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/wps/wps.js,tag=WPS
-
-cron "50 7 8 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/zxhc/zxhc.js,tag=智行火车
 cron "0 8 8 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/suning/suning.js,tag=苏宁易购
 
-cron "40 8 8 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/hellobike/hellobike.js,tag=哈啰出行
-cron "0 0 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/duokan/duokan.js,tag=多看
-cron "3 0 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/noteyoudao/noteyoudao.js, tag=有道云笔记
 
-cron "10 0 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/wanda/wanda.js, tag=万达电影
 
 
 # Peng-YM  https://github.com/Peng-YM/QuanX/tree/master/Tasks
 cron "55 23 ? * THU" script-path=https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/epic.js, tag=EPIC
-cron "30 8-22 * * *" script-path=https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/caiyun.js, tag=彩云天气
 
 # Sunert https://github.com/Sunert/Scripts/tree/master/Task
-
-cron "0 0 8 * * *" script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/trainquery.js, tag=12306
-
-
-cron "30 9 8 * * *" script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/txnews.js, tag=腾讯新闻
 cron "30 10 8 * * *" script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/jddj.js, tag=京东到家
 cron "40 10 8 * * *" script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/lkyl.js, tag=来客有礼
 
 cron "0 11 8 * * *" script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/weibo.js, tag=微博&钱包
-cron "10 11 8 * * *" script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/sinanews.js, tag=新浪新闻
-cron "7 0 * * *" script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/jingxi.js, tag=京喜
+
+
 
 
 # dompling   https://github.com/dompling/Script
 cron "0 0 0,2 * * *" script-path=https://raw.githubusercontent.com/dompling/Script/master/xiaomiyp/xiaomiyp.js, tag=小米有品
 
 
-
-# barrym-chen   https://github.com/barrym-chen/Script
-cron "20 9 8 * * *" script-path=https://raw.githubusercontent.com/barrym-chen/Script/master/ctrip/ctrip.js, tag=携程旅行
-cron "20 9 8 * * *" script-path=https://raw.githubusercontent.com/barrym-chen/Script/master/ctrip_wx/ct_sign.js, tag=携程小程序
-cron "20 9 8 * * *" https://raw.githubusercontent.com/barrym-chen/Script/master/elong/elong_draw.js, tag=艺龙酒店
-cron "0 10 8 * * *" script-path=https://raw.githubusercontent.com/barrym-chen/Script/master/jdczf/jdczf.js, tag= 京东成长分
-cron "20 10 8 * * *" script-path=https://raw.githubusercontent.com/barrym-chen/Script/master/tongc/tongc_sign.js, tag=微信小程序-同程艺龙
-cron "20 10 8 * * *" script-path=https://raw.githubusercontent.com/barrym-chen/Script/master/tongc/tongc_info.js, tag=微信小程序-同程艺龙info
-cron "10 10 8 * * *" script-path=https://raw.githubusercontent.com/barrym-chen/Script/master/jddj/jddj.js, tag=京东到家
-
 #  chouchoui  https://github.com/chouchoui/QuanX/tree/master/Scripts
 cron "10 0 * * *" script-path=https://raw.githubusercontent.com/chouchoui/QuanX/master/Scripts/nga/nga.js, tag=NGA刮墙
-
-# yangtingxiao
-#cron "5 9-22 * * *" script-path=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_bigWinner.js, tag=京东大赢家
-cron "10 1 * * *" script-path=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/ttwk/ttwk.js, tag=天天挖矿
-#cron "20 0-20/4 * * *" script-path=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_timeMachine.js, tag=京东时光机
-cron "5 9 * * *" script-path=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_starStore.js, tag=京东星店长
-#cron "11 1 * * *" script-path=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_lotteryMachine.js, tag=京东抽奖机
 
 
 [MITM]
