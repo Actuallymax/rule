@@ -1,0 +1,38 @@
+#!name=hy 去广告
+#!desc=iOS 去广告 模块配置
+
+[Rule]
+
+DOMAIN,sqimg.qq.com,DIRECT 
+DOMAIN-SUFFIX,got002.com,DIRECT
+DOMAIN-SUFFIX,jstucdn.com,DIRECT
+DOMAIN-SUFFIX,rrys2020.com,DIRECT
+DOMAIN-SUFFIX,rrys.tv,DIRECT
+
+
+
+# TT1069 AD
+DOMAIN-KEYWORD,awecrptjmp,REJECT
+DOMAIN-KEYWORD,adstatic,REJECT
+DOMAIN-KEYWORD,aspahk,REJECT
+DOMAIN-KEYWORD,awemwh,REJECT
+DOMAIN-KEYWORD,awestat,REJECT
+
+#人人影视 AD
+DOMAIN-KEYWORD,cvnad,REJECT
+
+URL-REGEX,^http:\/\/renren2\.maoyun\.tv\/ys\/.+\.JPG$,REJECT
+URL-REGEX,^http:\/\/v2\.yimohui2017\.com\/mahua\/img\/.+\/.+\/.+\.png$,REJECT
+URL-REGEX,d.image.i4.cn/adInfo/,REJECT
+URL-REGEX,^https?:\/\/www\.bldimg\.com\/(background|splash)\/.+\.png$,REJECT
+URL-REGEX,^https?:\/\/www\.bldimg\.com\/\/(background|splash)\/.+\.png$,REJECT
+URL-REGEX,^https:\/\/www\.bldimg\.com\/avatars\/.+\.png$,REJECT
+URL-REGEX,^https:\/\/www\.bldimg\.com\/banners\/.+\.png$,REJECT
+URL-REGEX,^https:\/\/www\.bldimg\.com\/cover\/.+\.png$,REJECT
+URL-REGEX,^https:\/\/www\.bldimg\.com\/livefiles\/.+\.png$,REJECT
+URL-REGEX,^http:\/\/www\.tt1069\.com\/banners\/.+\.gif$,REJECT
+DOMAIN-SUFFIX,pglstatp-toutiao.com,REJECT
+
+
+[MITM]
+hostname = *.bldimg.com, *.bldimg.cn, *.blued.com, *.blued.cn, 
