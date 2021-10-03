@@ -1,15 +1,39 @@
-#!name=hy 去广告
-#!desc=iOS 去广告 模块配置
+#!name=hy 
+#!desc=hy surge
+
+[Proxy]
+🌐Direct = direct
+⛔️Reject = reject
+
+
+[Proxy Group]
+# 白名单模式 PROXY，黑名单模式 DIRECT
+🧭Final = select,🌑Proxy,🌐Direct
+# 节点选项
+🌑Proxy = select, Auto, BGP, HK, SG, JP, TW, MO, Manual
+# 国际流媒体服务
+🎞Streaming = select,🌑Proxy
+# 中国流媒体服务（面向海外版本）
+🎞StreamingSE = select,🌐Direct,🌑Proxy
+# 防御
+🛡Guard = select,⛔️Reject,🌐Direct
+
+BGP = url-test, policy-path=https://dler.cloud/subscribe/5uGbKV0ybjuBDZbT?list=1&match=BGP, update-interval=0, url=http://cp.cloudflare.com/generate_204, interval=1800, tolerance=100
+HK = url-test, policy-path=https://dler.cloud/subscribe/5uGbKV0ybjuBDZbT?list=1&area=hk, update-interval=0, url=http://cp.cloudflare.com/generate_204, interval=1800, tolerance=100
+SG = url-test, policy-path=https://dler.cloud/subscribe/5uGbKV0ybjuBDZbT?list=1&area=sg, update-interval=0, url=http://cp.cloudflare.com/generate_204, interval=1800, tolerance=100
+TW = url-test, policy-path=https://dler.cloud/subscribe/5uGbKV0ybjuBDZbT?list=1&area=tw, update-interval=0, url=http://cp.cloudflare.com/generate_204, interval=1800, tolerance=100
+JP = url-test, policy-path=https://dler.cloud/subscribe/5uGbKV0ybjuBDZbT?list=1&area=jp, update-interval=0, url=http://cp.cloudflare.com/generate_204, interval=1800, tolerance=100
+MO = url-test, policy-path=https://dler.cloud/subscribe/5uGbKV0ybjuBDZbT?list=1, update-interval=0, url=http://cp.cloudflare.com/generate_204, interval=1800, tolerance=100
+Auto = url-test, policy-path=https://dler.cloud/subscribe/5uGbKV0ybjuBDZbT?list=1&noarea=cn, update-interval=0, url=http://cp.cloudflare.com/generate_204, interval=1800, tolerance=100
+Manual = select, policy-path=https://dler.cloud/subscribe/5uGbKV0ybjuBDZbT?list=1&noarea=cn
+
 
 [Rule]
-
 DOMAIN,sqimg.qq.com,DIRECT 
 DOMAIN-SUFFIX,got002.com,DIRECT
 DOMAIN-SUFFIX,jstucdn.com,DIRECT
 DOMAIN-SUFFIX,rrys2020.com,DIRECT
 DOMAIN-SUFFIX,rrys.tv,DIRECT
-
-
 
 # TT1069 AD
 DOMAIN-KEYWORD,awecrptjmp,REJECT
