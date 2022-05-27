@@ -35,5 +35,6 @@ payload:
   - DOMAIN,msg.umeng.com
   - DOMAIN,msg.umengcloud.com
   - DOMAIN,plex.imwc.me
-  - DOMAIN,plex.tv
-  - DOMAIN,pubsub.plex.tv
+  - DOMAIN,plex-forward.imwc.me
+  - DOMAIN-SUFFIX,plex.direct
+
