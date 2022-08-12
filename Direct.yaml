@@ -43,3 +43,7 @@ payload:
   - DOMAIN,plex-forward.imwc.me
   - IP-CIDR,20.214.139.126/32
   - IP-CIDR,20.239.173.143/32
+  
+  
+  # > 字幕库域名
+  - DOMAIN-SUFFIX,plex.direct
