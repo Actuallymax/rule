@@ -46,4 +46,5 @@ payload:
   
   
   # > 字幕库域名
-  - DOMAIN-SUFFIX,plex.direct
+  - DOMAIN-KEYWORD,zimuku
+  - DOMAIN-KEYWORD,zmk
