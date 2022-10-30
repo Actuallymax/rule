@@ -48,3 +48,10 @@ payload:
   # > 字幕库域名
   - DOMAIN-KEYWORD,zimuku
   - DOMAIN-KEYWORD,zmk
+  # > tailscale
+  - DOMAIN-KEYWORD,tailscale,DIRECT
+  - DOMAIN-KEYWORD,tailscaled,DIRECT
+  # > 微软下载
+  - DOMAIN-KEYWORD,gyan,DIRECT
+  - DOMAIN-KEYWORD,sharepoint,DIRECT
+  - DOMAIN,tlu.dl.delivery.mp.microsoft.com,DIRECT
