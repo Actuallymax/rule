@@ -55,3 +55,5 @@ payload:
   - DOMAIN-KEYWORD,gyan,DIRECT
   - DOMAIN-KEYWORD,sharepoint,DIRECT
   - DOMAIN,tlu.dl.delivery.mp.microsoft.com,DIRECT
+    # > NVIDIA
+  - DOMAIN,cn.download.nvidia.com,DIRECT
