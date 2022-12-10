@@ -56,4 +56,4 @@ payload:
   - DOMAIN-KEYWORD,sharepoint,DIRECT
   - DOMAIN,tlu.dl.delivery.mp.microsoft.com,DIRECT
     # > NVIDIA
-  - DOMAIN,cn.download.nvidia.com,DIRECT
+  - DOMAIN-KEYWORD,nvidia,DIRECT
