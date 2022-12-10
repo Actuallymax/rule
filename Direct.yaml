@@ -43,18 +43,19 @@ payload:
   - DOMAIN,plex-forward.imwc.me
   - IP-CIDR,20.214.139.126/32
   - IP-CIDR,20.239.173.143/32
+  - DOMAIN-KEYWORD,nebula
   
   
   # > 字幕库域名
   - DOMAIN-KEYWORD,zimuku
   - DOMAIN-KEYWORD,zmk
   # > tailscale
-  - DOMAIN-KEYWORD,tailscale,DIRECT
-  - DOMAIN-KEYWORD,tailscaled,DIRECT
+  - DOMAIN-KEYWORD,tailscale
+  - DOMAIN-KEYWORD,tailscaled
   # > 微软下载
-  - DOMAIN-KEYWORD,gyan,DIRECT
-  - DOMAIN-KEYWORD,sharepoint,DIRECT
-  - DOMAIN,tlu.dl.delivery.mp.microsoft.com,DIRECT
+  - DOMAIN-KEYWORD,gyan
+  - DOMAIN-KEYWORD,sharepoint
+  - DOMAIN,tlu.dl.delivery.mp.microsoft.com
     # > NVIDIA
-  - DOMAIN-KEYWORD,nvidia,DIRECT
-  - DOMAIN-KEYWORD,geforce,DIRECT
+  - DOMAIN-KEYWORD,nvidia
+  - DOMAIN-KEYWORD,geforce
