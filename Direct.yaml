@@ -57,3 +57,4 @@ payload:
   - DOMAIN,tlu.dl.delivery.mp.microsoft.com,DIRECT
     # > NVIDIA
   - DOMAIN-KEYWORD,nvidia,DIRECT
+  - DOMAIN-KEYWORD,geforce,DIRECT
