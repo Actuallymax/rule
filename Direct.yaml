@@ -49,9 +49,7 @@ payload:
   # > 字幕库域名
   - DOMAIN-KEYWORD,zimuku
   - DOMAIN-KEYWORD,zmk
-  # > tailscale
-  #- DOMAIN-KEYWORD,tailscale
-  #- DOMAIN-KEYWORD,tailscaled
+
   # > 微软下载
   - DOMAIN-KEYWORD,gyan
   - DOMAIN-KEYWORD,sharepoint
