@@ -57,3 +57,6 @@ payload:
     # > NVIDIA
   - DOMAIN-KEYWORD,nvidia
   - DOMAIN-KEYWORD,geforce
+
+    # Canon
+  - DOMAIN-KEYWORD,c-wss
