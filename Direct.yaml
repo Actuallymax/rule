@@ -61,3 +61,4 @@ payload:
     # Canon
   - DOMAIN-KEYWORD,c-wss
   - DOMAIN,downloadmirror.intel.com
+  - DOMAIN-KEYWORD,internetdownloadmanager
