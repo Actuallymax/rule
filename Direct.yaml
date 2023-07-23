@@ -62,3 +62,5 @@ payload:
   - DOMAIN-KEYWORD,c-wss
   - DOMAIN,downloadmirror.intel.com
   - DOMAIN-KEYWORD,internetdownloadmanager
+    # yuanshen
+  - DOMAIN-KEYWORD,feixiaoqiu
