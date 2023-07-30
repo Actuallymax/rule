@@ -51,7 +51,6 @@ payload:
   - DOMAIN-KEYWORD,zmk
 
   # > 微软下载
-  - DOMAIN-KEYWORD,gyan
   - DOMAIN-KEYWORD,sharepoint
   - DOMAIN,tlu.dl.delivery.mp.microsoft.com
     # > NVIDIA
