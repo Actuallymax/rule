@@ -31,7 +31,3 @@ URL-REGEX,^https:\/\/www\.bldimg\.com\/cover\/.+\.png$,REJECT
 URL-REGEX,^https:\/\/www\.bldimg\.com\/livefiles\/.+\.png$,REJECT
 URL-REGEX,^http:\/\/www\.tt1069\.com\/banners\/.+\.gif$,REJECT
 DOMAIN-SUFFIX,pglstatp-toutiao.com,REJECT
-
-
-[MITM]
-hostname = *.bldimg.com, *.bldimg.cn, *.blued.com, *.blued.cn, 
