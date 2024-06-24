@@ -9,28 +9,28 @@ DOMAIN-SUFFIX,jstucdn.com,DIRECT
 DOMAIN-SUFFIX,rrys2020.com,DIRECT
 DOMAIN-SUFFIX,rrys.tv,DIRECT
 DOMAIN-KEYWORD,pairdrop,DIRECT
-DOMAIN-SUFFIX,gaoqing.la
-DOMAIN,app.adjust.com
-DOMAIN,bdtj.tagtic.cn
+DOMAIN-SUFFIX,gaoqing.la,DIRECT
+DOMAIN,app.adjust.com,DIRECT
+DOMAIN,bdtj.tagtic.cn,DIRECT
   # > 字幕库域名
-DOMAIN-KEYWORD,zimuku
-DOMAIN-KEYWORD,zmk
+DOMAIN-KEYWORD,zimuku,DIRECT
+DOMAIN-KEYWORD,zmk,DIRECT
 
   # > 微软下载
-DOMAIN-KEYWORD,sharepoint
-DOMAIN,tlu.dl.delivery.mp.microsoft.com
+DOMAIN-KEYWORD,sharepoint,DIRECT
+DOMAIN,tlu.dl.delivery.mp.microsoft.com,DIRECT
     # > NVIDIA
-DOMAIN-KEYWORD,nvidia
-DOMAIN-KEYWORD,geforce
+DOMAIN-KEYWORD,nvidia,DIRECT
+DOMAIN-KEYWORD,geforce,DIRECT
 
     # Canon
-DOMAIN-KEYWORD,c-wss
-DOMAIN,downloadmirror.intel.com
+DOMAIN-KEYWORD,c-wss,DIRECT
+DOMAIN,downloadmirror.intel.com,DIRECT
     # yuanshen
-DOMAIN-KEYWORD,feixiaoqiu
-DOMAIN-KEYWORD,epicgames
-DOMAIN-KEYWORD,imacso
-DOMAIN-KEYWORD,macked
+DOMAIN-KEYWORD,feixiaoqiu,DIRECT
+DOMAIN-KEYWORD,epicgames,DIRECT
+DOMAIN-KEYWORD,imacso,DIRECT
+DOMAIN-KEYWORD,macked,DIRECT
 
 
 # TT1069 AD
