@@ -34,17 +34,6 @@ payload:
   # > Umeng
   - DOMAIN,msg.umeng.com
   - DOMAIN,msg.umengcloud.com
-
-  # > Plex 官方 Relay 域名
-  - DOMAIN-SUFFIX,plex.direct
-
-  # > ImWc.Me Plex
-  - DOMAIN,plex.imwc.me
-  - DOMAIN,plex-forward.imwc.me
-  - IP-CIDR,20.214.139.126/32
-  - IP-CIDR,20.239.173.143/32
-  - DOMAIN-KEYWORD,nebula
-  
   
   # > 字幕库域名
   - DOMAIN-KEYWORD,zimuku
