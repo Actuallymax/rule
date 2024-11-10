@@ -23,8 +23,9 @@ payload:
   # >> Google Fonts API
   # - DOMAIN,fonts.googleapis.com
   #- DOMAIN,fonts.gstatic.com
-    # >> Paramount+
-  #- DOMAIN,pubads.g.doubleclick.net
+
+  - DOMAIN-SUFFIX,services.googleapis.cn
+  - DOMAIN-SUFFIX,xn--ngstr-lra8j.com
   # > Tencent
   - DOMAIN,fairplay.l.qq.com
   - DOMAIN,livew.l.qq.com
@@ -54,5 +55,4 @@ payload:
   - DOMAIN-KEYWORD,feixiaoqiu
   - DOMAIN-KEYWORD,epicgames
   - DOMAIN-KEYWORD,imacso
-  - DOMAIN-KEYWORD,macked
   - DOMAIN-KEYWORD,vidhub
