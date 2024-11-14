@@ -53,6 +53,6 @@ payload:
   - DOMAIN-KEYWORD,internetdownloadmanager
     # yuanshen
   - DOMAIN-KEYWORD,feixiaoqiu
-  #- DOMAIN-KEYWORD,epicgames
+  - DOMAIN-KEYWORD,epicgamescdn
   - DOMAIN-KEYWORD,imacso
   - DOMAIN-KEYWORD,vidhub
