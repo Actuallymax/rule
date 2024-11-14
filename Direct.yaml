@@ -44,8 +44,8 @@ payload:
   - DOMAIN-KEYWORD,sharepoint
   - DOMAIN,tlu.dl.delivery.mp.microsoft.com
     # > NVIDIA
-  - DOMAIN-KEYWORD,nvidia
-  - DOMAIN-KEYWORD,geforce
+  #- DOMAIN-KEYWORD,nvidia
+  #- DOMAIN-KEYWORD,geforce
 
     # Canon
   - DOMAIN-KEYWORD,c-wss
