@@ -35,6 +35,7 @@ payload:
   # > Umeng
   - DOMAIN,msg.umeng.com
   - DOMAIN,msg.umengcloud.com
+  - DOMAIN,origin-a.akamaihd.net
   
   # > 字幕库域名
   - DOMAIN-KEYWORD,zimuku
