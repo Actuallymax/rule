@@ -58,4 +58,6 @@ payload:
   - DOMAIN-KEYWORD,imacso
   - DOMAIN-KEYWORD,vidhub
   - DOMAIN-KEYWORD,irobotbox
+  #飞牛os
   - DOMAIN-KEYWORD,fnnas
+  - DOMAIN-KEYWORD,fnos
