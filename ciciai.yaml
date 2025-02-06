@@ -1,9 +1,11 @@
 #cici ai
 payload:
   - DOMAIN-SUFFIX,ciciai.com
+  - DOMAIN-SUFFIX,cici.com
   - DOMAIN-SUFFIX,byteoversea.com
   - DOMAIN-SUFFIX,yhgfb-static.com
   - DOMAIN-SUFFIX,itobsnssdk.com
   - DOMAIN-SUFFIX,ciciaicdn.com
   - DOMAIN-KEYWORD,ciciai
+  - DOMAIN-KEYWORD,cici
   - DOMAIN-KEYWORD,ciciaicdn
