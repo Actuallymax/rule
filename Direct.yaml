@@ -64,3 +64,4 @@ payload:
 
   
   - DOMAIN,stun.parsec.app
+  - DOMAIN-SUFFIX,gamepp.com
