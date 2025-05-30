@@ -40,6 +40,8 @@ payload:
   # > 字幕库域名
   - DOMAIN-KEYWORD,zimuku
   - DOMAIN-KEYWORD,zmk
+  - DOMAIN-KEYWORD,19990909
+  - DOMAIN-KEYWORD,landrop
 
   # > 微软下载
   - DOMAIN-KEYWORD,sharepoint
