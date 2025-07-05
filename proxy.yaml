@@ -1,0 +1,6 @@
+payload:
+
+  # > plex问题
+  - DOMAIN,plex.tv
+  # > 玉衡数据库访问慢
+  - DOMAIN-SUFFIX,homdgcat.wiki

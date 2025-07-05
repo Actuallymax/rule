@@ -68,3 +68,5 @@ payload:
   - DOMAIN,stun.parsec.app
   - DOMAIN,adv.sec.miui.com
   - DOMAIN-SUFFIX,gamepp.com
+  # 解决plex问题
+  - DOMAIN,v4.plex.tv

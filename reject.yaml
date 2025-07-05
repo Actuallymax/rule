@@ -1,0 +1,8 @@
+payload:
+
+  # > 屏蔽b站cdn
+  - DOMAIN-SUFFIX,szbdyd.com
+  - DOMAIN-SUFFIX,mcdn.bilivideo.com
+  - DOMAIN-SUFFIX,mcdn.bilivideo.cn
+  # > 小米浏览器广告
+  - DOMAIN-SUFFIX,browser.miui.com
