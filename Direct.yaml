@@ -70,3 +70,4 @@ payload:
   - DOMAIN-SUFFIX,gamepp.com
   # 解决plex问题
   - DOMAIN,v4.plex.tv
+  - DOMAIN,plex.direct
