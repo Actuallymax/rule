@@ -63,6 +63,7 @@ payload:
   #飞牛os
   - DOMAIN-KEYWORD,fnnas
   - DOMAIN-KEYWORD,fnos
+  - DOMAIN-KEYWORD,pan666
 
   
   - DOMAIN,stun.parsec.app
