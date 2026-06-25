@@ -1,0 +1,83 @@
+# Amazon & eBay seller login only blocklist for Surge
+# Front-safe version: does NOT block normal shopping/front pages such as www.amazon.* or www.ebay.*
+# Generated: 2026-06-25
+# Recommended policy: REJECT
+# Usage in Surge [Rule]:
+# RULE-SET,https://your-host/amazon-ebay-login-only-front-safe.surge.list,REJECT
+
+# ============================================================
+# Amazon Seller Central login / seller backend domains
+# These do not block Amazon shopping front pages.
+# ============================================================
+DOMAIN,sellercentral.amazon.com
+DOMAIN,sellercentral.amazon.ca
+DOMAIN,sellercentral.amazon.com.mx
+DOMAIN,sellercentral.amazon.com.br
+DOMAIN,sellercentral-europe.amazon.com
+DOMAIN,sellercentral.amazon.ie
+DOMAIN,sellercentral.amazon.com.be
+DOMAIN,sellercentral.amazon.nl
+DOMAIN,sellercentral.amazon.se
+DOMAIN,sellercentral.amazon.pl
+DOMAIN,sellercentral.amazon.co.za
+DOMAIN,sellercentral.amazon.eg
+DOMAIN,sellercentral.amazon.com.tr
+DOMAIN,sellercentral.amazon.sa
+DOMAIN,sellercentral.amazon.ae
+DOMAIN,sellercentral.amazon.in
+DOMAIN,sellercentral.amazon.sg
+DOMAIN,sellercentral.amazon.co.jp
+DOMAIN,sellercentral.amazon.com.au
+
+# Amazon seller recruiting / seller registration pages
+# These are seller-facing pages, not shopping front pages.
+DOMAIN,sell.amazon.com
+DOMAIN,sell.amazon.ca
+DOMAIN,sell.amazon.com.mx
+DOMAIN,sell.amazon.com.br
+DOMAIN,sell.amazon.co.uk
+DOMAIN,sell.amazon.de
+DOMAIN,sell.amazon.fr
+DOMAIN,sell.amazon.it
+DOMAIN,sell.amazon.es
+DOMAIN,sell.amazon.nl
+DOMAIN,sell.amazon.se
+DOMAIN,sell.amazon.pl
+DOMAIN,sell.amazon.com.tr
+DOMAIN,sell.amazon.sa
+DOMAIN,sell.amazon.ae
+DOMAIN,sell.amazon.in
+DOMAIN,sell.amazon.sg
+DOMAIN,sell.amazon.co.jp
+DOMAIN,sell.amazon.com.au
+
+# ============================================================
+# eBay login domains
+# These avoid blocking www.ebay.* product/front pages.
+# Note: blocking signin.ebay.* also blocks normal buyer account login on eBay,
+# but browsing/listing pages remain accessible.
+# ============================================================
+DOMAIN,signin.ebay.com
+DOMAIN,signin.ebay.co.uk
+DOMAIN,signin.ebay.de
+DOMAIN,signin.ebay.fr
+DOMAIN,signin.ebay.it
+DOMAIN,signin.ebay.es
+DOMAIN,signin.ebay.com.au
+DOMAIN,signin.ebay.ca
+DOMAIN,signin.cafr.ebay.ca
+DOMAIN,signin.ebay.at
+DOMAIN,signin.befr.ebay.be
+DOMAIN,signin.benl.ebay.be
+DOMAIN,signin.ebay.ie
+DOMAIN,signin.ebay.nl
+DOMAIN,signin.ebay.pl
+DOMAIN,signin.ebay.ch
+DOMAIN,signin.ebay.com.hk
+DOMAIN,signin.ebay.com.sg
+DOMAIN,signin.ebay.com.my
+DOMAIN,signin.ebay.in
+
+# ============================================================
+# eBay Seller Hub path rules removed in this no-MITM version.
+# This version blocks login domains only and avoids www.ebay.* front-page blocking.
