@@ -10,6 +10,9 @@
 # These do not block Amazon shopping front pages.
 # ============================================================
 DOMAIN,sellercentral.amazon.com
+DOMAIN,sellercentral.amazon.de
+DOMAIN,sellercentral.amazon.it
+DOMAIN,sellercentral.amazon.*
 DOMAIN,sellercentral.amazon.ca
 DOMAIN,sellercentral.amazon.com.mx
 DOMAIN,sellercentral.amazon.com.br
