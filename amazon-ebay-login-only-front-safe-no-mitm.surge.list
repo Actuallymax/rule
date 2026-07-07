@@ -31,6 +31,14 @@ DOMAIN,sellercentral.amazon.in
 DOMAIN,sellercentral.amazon.sg
 DOMAIN,sellercentral.amazon.co.jp
 DOMAIN,sellercentral.amazon.com.au
+DOMAIN,na.account.amazon.com
+DOMAIN,eu.account.amazon.com
+DOMAIN,fe.account.amazon.com
+DOMAIN,account.amazon.com
+DOMAIN,authportal.amazon.com
+DOMAIN,vendorcentral.amazon.com
+DOMAIN,advertising.amazon.com
+DOMAIN,brandregistry.amazon.com
 
 # Amazon seller recruiting / seller registration pages
 # These are seller-facing pages, not shopping front pages.
